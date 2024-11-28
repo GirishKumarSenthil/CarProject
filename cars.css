@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+}
+
+.logo {
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    color: #ddd;
+    margin: 0 15px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    color: crimson;
+}
+
+.social-links a {
+    color: crimson;
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.car-header {
+    display: flex;
+    padding: 70px 8%;
+    align-items: center;
+    gap: 40px;
+   
+}
+
+.car-content {
+    max-width: 600px;
+}
+
+.car-content h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.car-content h3 {
+    font-size: 24px;
+    color: crimson;
+    margin-bottom: 10px;
+}
+
+.car-content p {
+    font-size: 16px;
+    color: #555;
+    margin: 15px 0;
+}
+
+.button {
+    padding: 10px 20px;
+    color: white;
+    background-color: crimson;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: darkred;
+}
+
+.car-image {
+    margin-left: 300px;
+  
+}
+
+.car-image img {
+    width: 400px;
+    height: auto;
+    border: 10px solid rgba(255, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
